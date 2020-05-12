@@ -13,6 +13,13 @@
       li {list-style-type: none;}
       li:before {content: "-"}
     </style>
+    <!-- Стиль для динамического размера видео -->
+    <style>
+      .embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; }
+      .embed-container iframe,
+      .embed-container object,
+      .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+    </style>
   </head>
   <body>
     <div class="container-fluid smart_main-container">
@@ -35,7 +42,7 @@
                   <img src="../images/SmartKasa.png" alt="Smart Kasa device" style="width: 40%">
               <ul style="margin-left: 20px; ">
                 <li>Платіжний термінал</li>
-                <li>еквайринг 2%</li>
+                <li>Еквайринг 2%</li>
                 <li>Фіскальний апарат</li>
                 <li>Касовий апарат</li>
                 <li>Сканер</li>
@@ -52,8 +59,8 @@
               ПЛАТЕЖІВ ТА АВТОМАТИЗАЦІЇ БІЗНЕСУ
             </h2>
             <!-- Вставил Видосик -->
-            <div align="center">
-              <iframe width="690" height="388" src="https://www.youtube.com/embed/AcjbDLRPSUs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class='embed-container' align="center">
+              <iframe width="auto" height="390" src="https://www.youtube.com/embed/AcjbDLRPSUs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
             <!-- Вставил Видосик -->
             <div>
