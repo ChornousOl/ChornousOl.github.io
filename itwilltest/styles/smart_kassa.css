@@ -99,6 +99,6 @@ button {
 /*@media (min-width: 1200px) { ... }*/
 
 /* ItWill */
-ul {list-style-type: none;}
 /*Стиль маркированного списка для Смарткассы*/
+ul {list-style-type: none;}
 .type_line li:before {content: "-";}
